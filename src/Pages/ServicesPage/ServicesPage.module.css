@@ -1,0 +1,28 @@
+.sectionMain1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4.5%;
+}
+.sectionMain1Heading {
+  font-weight: bold;
+}
+.sectionMain1Line {
+}
+.sectionMain1Text {
+}
+.sectionMain2 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  align-items: center;
+  padding: 2%;
+  flex-wrap: wrap;
+}
+.sectionMain2Inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  
+}

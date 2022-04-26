@@ -1,0 +1,99 @@
+.sectionMain {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionMainInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10%; */
+}
+.sectionMain1Inner1 {
+  height: 100%;
+  background-color: #45537c;
+  padding: 5%;
+}
+.sectionMain1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionMain1Left {
+  display: flex;
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.sectionMain1LeftImg {
+  width: 50%;
+}
+.sectionMain1RightOuter {
+  width: 40%;
+  /* padding: 5%; */
+  margin-top: 0%;
+}
+.sectionMain1Right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 5%;
+  margin-top: 0%;
+  /* margin-bottom: 100px; */
+  /* padding-left: 7%; */
+}
+.sectionMain1RightHeading {
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.sectionMain1RightHeading1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.sectionMain1RightLogoImg {
+  width: 50px;
+  height: 70px;
+  padding: 10%;
+  padding-right: 15%;
+}
+.sectionMain1RightPara {
+}
+.sectionMain1RightPara1 {
+}
+.sectionMain1Right2,
+.sectionMain1Right3,
+.sectionMain1Right4,
+.sectionMain1Right5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1%;
+  padding-left: 0%;
+}
+.sectionMain1Right21,
+.sectionMain1Right31,
+.sectionMain1Right41,
+.sectionMain1Right51 {
+  width: 100%;
+  border-radius: 5px;
+}
+.sectionMain1Right51 {
+  height: 80px;
+}
+.sectionMain1RightBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30%;
+  margin-top: -5%;
+}

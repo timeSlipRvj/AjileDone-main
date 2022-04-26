@@ -1,0 +1,281 @@
+.homemain {
+  width: 100vw;
+}
+.homePage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50%;
+}
+.section1 {
+}
+.section2 {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.section3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+}
+.section1Img {
+  width: 100%;
+  height: 90%;
+  margin-top: 40%;
+}
+.section2Img {
+  width: 100%;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3Img {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: flex-end;
+  /* margin-top: 0%; */
+}
+.img1 {
+  height: 100%;
+  width: 80%;
+  margin-top: 8px;
+}
+.img2 {
+  height: 30%;
+  width: 50%;
+  border-radius: 100px;
+  padding: 2%;
+}
+.img3 {
+  height: 100%;
+  width: 97%;
+  margin-top: -10px;
+}
+.section3inner {
+  /* margin-right: -10px; */
+  display: flex;
+  justify-content: flex-end;
+  height: 96%;
+  width: 70%;
+  border-style: dashed;
+  border-right: 0px;
+  border: 20px solid dashed;
+}
+.section1inner {
+  margin-left: -50px;
+  display: flex;
+  justify-content: flex-end;
+  height: 96%;
+  width: 100%;
+  border-style: dashed;
+}
+.section2inner {
+  width: 50%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  /* align-items: center; */
+  border-style: dashed;
+  border-radius: 50%;
+}
+.section2inner1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.sectionMid {
+  width: 100vw;
+  margin-top: 5%;
+}
+.sectionServiceInner1 {
+  display: flex;
+  flex-direction: column;
+}
+.sectionServices {
+  width: 100vw;
+}
+.sectionService0 {
+  display: flex;
+  justify-content: center;
+}
+.ourServices {
+  display: flex;
+  justify-content: center;
+}
+.sectionService2 {
+  display: flex;
+  justify-content: center;
+}
+.sectionServices2 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  gap: 200px;
+}
+.sectionBlocks {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #45537c;
+  text-align: center;
+  color: white;
+}
+.sectionQuestion {
+  width: 100%;
+}
+.sectionQuestion1 {
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+}
+.sectionQuestionImg {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  position: relative;
+  bottom: 3rem;
+}
+.sectionQuestionText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.sectionQuestionImg1 {
+  z-index: 1;
+}
+.sectionQuestionImg2 {
+  z-index: -1;
+  position: absolute;
+  top: 4rem;
+  left: 2.5rem;
+}
+.sectionQuestion2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+  margin-top: -5%;
+  top: -10px;
+  padding-bottom: 5%;
+  height: 100%;
+}
+.sectionQuestionInner {
+  width: 50%;
+  height: 10rem;
+  background: #bfc9ff;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.sectionQuestion3 {
+  margin-left: 10%;
+  padding-bottom: 5%;
+}
+.sectionQuestionImg3 {
+  margin-top: 2%;
+}
+.sectionMid2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.sectionMid2Img {
+  width: 25%;
+}
+.sectionMid3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sectionMid3text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.sectionMid31Img {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: -15%;
+  padding: 10%;
+}
+.sectionMid3Img {
+  /* position: relative; */
+  /* padding-left: 100%; */
+  /* left: 150%; */
+  /* bottom: 2rem; */
+  /* align-self: end; */
+}
+.sectionMid4 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2%;
+}
+.sectionMid4Inner {
+  /* text-align: justify; */
+  text-align: center;
+}
+.sectionMid4Circle {
+  width: 100px;
+  height: 100px;
+  border-style: dashed;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionMid4 :first-child {
+  margin-left: 10px;
+}
+.sectionMid4 :last-child {
+  margin-right: 10px;
+}
+.sectionMid5 {
+  margin-top: 3%;
+  display: flex;
+  justify-content: flex-end;
+}
+.sectionMid5Button {
+  margin-right: 2%;
+}
+.sectionMid5Text {
+  margin-right: 4%;
+  text-align: left;
+}
+.sectionMid6 {
+  display: flex;
+  justify-content: center;
+}
+.sectionMid6Inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionMid6Text {
+}
+.setionMid6Box {
+}
+.sectionEnd {
+  margin-bottom: -4px;
+}
+.section3Upper {
+  padding: 5%;
+}
+.section3UpperImg {
+  width: 100%;
+}

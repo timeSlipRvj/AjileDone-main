@@ -1,0 +1,52 @@
+.sectionMain {
+  height: 60%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 5%;
+}
+.sectionMain1Img {
+  padding: 3%;
+  height: 95%;
+  width: 90%;
+  padding-bottom: 2%;
+}
+.sectionMain2 {
+  width: 84%;
+  background-color: whitesmoke;
+  margin-top: -12px;
+  margin-left: 3%;
+}
+.sectionMainHeading {
+  width: 95%;
+  font-weight: bold;
+  padding: 1%;
+  padding-left: 3%;
+  padding-top: 0%;
+}
+.sectionMainPara {
+  width: 95%;
+  padding: 2%;
+  padding-left: 3%;
+  padding-top: 1%;
+  font-size: 10px;
+  text-align: left;
+}
+.sectionMainBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+.sectionMainBtn1 {
+  padding: 2%;
+  background-color: #45537c;
+  height: 40%;
+  border-radius: 5px;
+  color: white;
+  /* font-size: 15px; */
+}
+.sectionMainBtnTxt {
+  font-size: 10px;
+}

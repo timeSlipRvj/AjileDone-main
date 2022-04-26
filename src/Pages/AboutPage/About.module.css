@@ -1,0 +1,173 @@
+.sectionAbout {
+  width: 100%;
+  height: 100%;
+}
+.sectionAboutImg {
+  width: 100%;
+  /* height: 10px; */
+}
+.sectionAboutInner {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.sectionAboutText1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sectionAboutText2 {
+  width: 50%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  text-align: left;
+}
+.sectionAboutInner2 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+.sectionAboutInner2Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4%;
+  align-items: center;
+  text-align: center;
+}
+.sectionAboutImg2 {
+  margin-top: 4%;
+  height: 80%;
+}
+.sectionAboutInner3 {
+  display: flex;
+  justify-content: center;
+}
+.sectionAboutBlock1 {
+  width: 50%;
+  display: flex;
+  margin-top: 1%;
+  padding: 4%;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.sectionAboutBlock1Text {
+  display: flex;
+  justify-content: center;
+  margin-left: 3%;
+  padding: 5%;
+  text-align: left;
+}
+.sectionAboutBlock1textOuter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.sectionAboutBlock1Icon {
+  padding: 2%;
+}
+.googleMp {
+  width: 200px;
+  height: 200px;
+}
+
+.sectionAboutBlock1TextInner {
+}
+.sectionAboutOuter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionAboutOuterHeading {
+  font-weight: bold;
+  text-align: center;
+}
+.sectionAboutBlock2 {
+  width: 50%;
+  padding: 4%;
+}
+.sectionAboutBlock2TextInner {
+}
+.sectionAboutBlock2TextInner1 {
+  /* display: none; */
+  background-color: #45537c;
+  padding: 4%;
+  border-radius: 10px;
+  margin-top: 4.5%;
+}
+.sectionAboutBlock2TextInner12 {
+  display: none;
+  /* display: block; */
+}
+.sectionAboutEndHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionAboutEndHeading1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sectionAboutEnd {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.sectionAboutMapSide {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionAboutMapHeading {
+  margin-top: 3%;
+  margin-right: 10%;
+  width: 40%;
+  background-color: #45537c;
+  padding: 2%;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+.sectionAboutMapInnerArea {
+  position: relative;
+}
+.sectionAboutMap1 {
+}
+.sectionAboutMap1Inner {
+  height: 400px;
+  width: 90%;
+  padding: 5%;
+  margin-top: -10%;
+  z-index: -1;
+}
+.sectionAboutMap2Inner {
+  position: absolute;
+  padding: 5%;
+  /* position: relative; */
+  height: 350px;
+  width: 80%;
+  left: 5%;
+  z-index: 1;
+}
+.sectionAboutAddressSide {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionAboutAddText {
+  padding: 10%;
+}
+.sectionEnd {
+  margin-bottom: -4px;
+}

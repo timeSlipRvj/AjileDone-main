@@ -1,0 +1,45 @@
+.sectionBlock {
+  width: 90%;
+  height: 60%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+}
+.sectionBlockImg1 {
+  height: 100%;
+  width: 90%;
+  padding: 2%;
+  /* padding-bottom: 0%; */
+}
+.sectionBlock2 {
+  background-color: #f8f8f8;
+  width: 90%;
+  margin-left: 2%;
+  margin-top: 3%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* padding-left: 1%; */
+}
+.sectionMain3Text {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.5%;
+  padding-top: 0%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+.sectionMain3Text2 {
+  padding-right: 4%;
+}
+.sectionBlock3Heading {
+  padding: 2%;
+  padding-top: 1%;
+}
+.sectionBlock3Heading1 {
+  font-weight: bold;
+}
+.sectionBlock3Heading2 {
+  padding-top: 1%;
+}

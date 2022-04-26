@@ -1,0 +1,94 @@
+.footer {
+  /* width: 100%; */
+  background-color: #45537c;
+  color: white;
+  /* margin-left: 5%; */
+  padding: 2.5%;
+}
+.footerInner {
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  gap: 2.5%;
+  margin-top: -1.5%;
+}
+.about1 {
+  margin-left: 3%;
+  padding: 5%;
+  margin-top: -3%;
+}
+.aboutImg {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.aboutImg1 {
+  width: 50%;
+  height: 50%;
+}
+.aboutInfo {
+  /* width: 200px; */
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.links > * {
+  margin-top: 5%;
+}
+.links > :first-child {
+  margin-top: 0%;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.contactsAddress {
+  padding: 2%;
+  padding-left: 0%;
+  padding-bottom: 5%;
+}
+.contacts > :last-child {
+  margin-top: 5%;
+}
+.subscribe {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+}
+.subscribe > * {
+  margin-top: 5%;
+}
+.subscribe > :first-child {
+  margin-top: 0%;
+}
+.input1 {
+  color: white;
+  background-color: #45537c;
+  border: none;
+}
+.input1::placeholder {
+  color: white;
+  font-weight: lighter;
+}
+.line {
+  width: 110%;
+  border: 1px solid white;
+}
+.subscribeBtn {
+  width: 42%;
+  height: 13%;
+  border: none;
+  border-radius: 10px;
+  color: #45537c;
+  font-size: 50;
+}
+.subscribeBtn > :last-child {
+  margin-top: 0%;
+}
+.rights {
+  text-align: center;
+}
